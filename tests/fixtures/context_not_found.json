@@ -1,0 +1,10 @@
+{
+ "status": 404,
+ "headers": {
+  "Content-Type": "application/json",
+  "Ratelimit-Limit": "200",
+  "Ratelimit-Remaining": "184",
+  "Ratelimit-Reset": "1796083200"
+ },
+ "body": "{\"error\":\"library_not_found\",\"message\":\"Library \\\"/nope/nope\\\" not found. Please check the library ID or your access permissions.\"}"
+}

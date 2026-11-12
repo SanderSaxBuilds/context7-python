@@ -1,0 +1,10 @@
+{
+ "status": 301,
+ "headers": {
+  "Content-Type": "application/json",
+  "Ratelimit-Limit": "200",
+  "Ratelimit-Remaining": "187",
+  "Ratelimit-Reset": "1796083200"
+ },
+ "body": "{\"error\":\"library_redirected\",\"message\":\"Library /fastapi/fastapi has been redirected to this library: /websites/fastapi_tiangolo.\",\"redirectUrl\":\"/websites/fastapi_tiangolo\"}"
+}

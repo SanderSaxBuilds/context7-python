@@ -1,0 +1,10 @@
+{
+ "status": 200,
+ "headers": {
+  "Content-Type": "application/json",
+  "Ratelimit-Limit": "200",
+  "Ratelimit-Remaining": "186",
+  "Ratelimit-Reset": "1796083200"
+ },
+ "body": "{\"codeSnippets\": [{\"codeTitle\": \"fastapi.Depends\", \"codeDescription\": \"Declare a FastAPI dependency. It takes a single \\\"dependable\\\" callable (like a function). Don't call it directly, FastAPI will call it for you.\", \"codeLanguage\": \"APIDOC\", \"codeTokens\": 925, \"codeId\": \"https://fastapi.tiangolo.com/reference/dependencies/\", \"pageTitle\": \"Dependencies - Depends() and Security()\", \"codeList\": [{\"language\": \"APIDOC\", \"code\": \"## fastapi.Depends\\n\\n### Description\\nDeclare a FastAPI dependency. It takes a single \\\"dependable\\\" callable (like a function). Don't call it directly, FastAPI will call it for you.\\n\\n### Signature\\n```python\\ndef Depends(\\n    dependency: Annotated[\\n        Callable[..., Any] | None,\\n        Doc(\\n            \\\"\\\"\\\"\\n            A \\\"dependable\\\" callable (like a function).\\n\\n            Don't call it directly, \"}], \"generationDate\": \"2026-11-10T17:14:32.127Z\", \"rank\": 4}], \"infoSnippets\": [{\"pageId\": \"https://fastapi.tiangolo.com/tutorial/dependencies/\", \"breadcrumb\": \"Dependencies > What is \\\"Dependency Injection\\\"\", \"content\": \"**\\\"Dependency Injection\\\"** means, in programming, that there is a way for your code (in this case, your _path operation functions_) to declare things that it requires to work and use: \\\"dependencies\\\".\\n\\nAnd then, that system (in this case **FastAPI**) will take care of doing whatever is needed to provide your code with those needed dependencies (\\\"inject\\\" the dependencies).\\n\\nThis is very useful when \", \"contentTokens\": 132, \"rank\": 1}]}"
+}

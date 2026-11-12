@@ -1,0 +1,10 @@
+{
+ "status": 200,
+ "headers": {
+  "Content-Type": "application/json",
+  "Ratelimit-Limit": "200",
+  "Ratelimit-Remaining": "189",
+  "Ratelimit-Reset": "1796083200"
+ },
+ "body": "{\"results\": [{\"id\": \"/websites/fastapi_tiangolo\", \"title\": \"FastAPI\", \"description\": \"FastAPI is a modern, high-performance web framework for building APIs with Python, known for its speed, ease of use, and automatic interactive documentation based on OpenAPI standards.\", \"branch\": \"_contextdev_\", \"lastUpdateDate\": \"2026-11-10T17:16:54.715Z\", \"state\": \"finalized\", \"totalTokens\": 513374, \"totalSnippets\": 4160, \"stars\": -1, \"trustScore\": 9, \"benchmarkScore\": 78.56, \"versions\": []}, {\"id\": \"/websites/fastapi_tiangolo_reference\", \"title\": \"FastAPI\", \"description\": \"FastAPI is a modern Python web framework for building fast APIs with automatic interactive documentation and built-in validation using Python type hints.\", \"branch\": \"_contextdev_\", \"lastUpdateDate\": \"2026-10-21T10:17:15.861Z\", \"state\": \"finalized\", \"totalTokens\": 240227, \"totalSnippets\": 1512, \"stars\": -1, \"trustScore\": 9, \"benchmarkScore\": 63.23, \"versions\": []}], \"searchFilterApplied\": false}"
+}

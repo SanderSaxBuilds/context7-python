@@ -1,0 +1,10 @@
+{
+ "status": 404,
+ "headers": {
+  "Content-Type": "application/json",
+  "Ratelimit-Limit": "200",
+  "Ratelimit-Remaining": "188",
+  "Ratelimit-Reset": "1796083200"
+ },
+ "body": "{\"error\":\"no_libraries_found\",\"message\":\"No libraries found for \\\"zzzzqqqxnotreal\\\". Try a different search term.\"}"
+}

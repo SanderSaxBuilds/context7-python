@@ -1,0 +1,10 @@
+{
+ "status": 200,
+ "headers": {
+  "Content-Type": "text/plain; charset=utf-8",
+  "Ratelimit-Limit": "200",
+  "Ratelimit-Remaining": "185",
+  "Ratelimit-Reset": "1796083200"
+ },
+ "body": "### Dependencies > What is \"Dependency Injection\"\n\nSource: https://fastapi.tiangolo.com/tutorial/dependencies/\n\n**\"Dependency Injection\"** means, in programming, that there is a way for your code (in this case, your _path operation functions_) to declare things that it requires to work and use: \"dependencies\".\n\nAnd then, that system (in this case **FastAPI**) will take care of doing whatever is needed to provide your code with those needed dependencies (\"inject\" the dependencies).\n\nThis is very useful when you need to:\n\n- Have shared logic (the same code logic again and again).\n- Share databas"
+}
